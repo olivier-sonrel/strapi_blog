@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chatters",
+  "info": {
+    "name": "chatters"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "room": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "socketid": {
+      "type": "integer"
+    }
+  }
+}
