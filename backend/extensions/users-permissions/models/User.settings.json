@@ -59,10 +59,6 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "comments": {
-      "via": "users_permissions_user",
-      "collection": "comment"
-    },
     "status": {
       "type": "string"
     },
